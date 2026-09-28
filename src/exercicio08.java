@@ -8,6 +8,10 @@ public class exercicio08 {
         return formatoMoeda.format(valor);
     }
 
-
+    public static void main(String[] args) {
+        double valorExemplo = 1540.50;
+        System.out.println("Valor formatado: " + formatarReais(valorExemplo));
+        // Saída esperada: R$ 1.540,50
+    }
 }
 
