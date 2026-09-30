@@ -21,4 +21,8 @@ public class exercicio09 {
         }
         return resultado;
     }
+    public static void main(String[] args) {
+        String contaExemplo = "1234567";
+        System.out.println("Dígito verificador calculado: " + calcularDigito(contaExemplo));
+    }
 }
