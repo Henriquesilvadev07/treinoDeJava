@@ -32,4 +32,23 @@ public class exercicio10 {
 
         scanner.close();
     }
+    public static String generatePassword(int length, boolean upper, boolean numbers, boolean special, SecureRandom random) {
+        StringBuilder charPool = new StringBuilder(LOWERCASE);
+
+        if (upper) charPool.append(UPPERCASE);
+        if (numbers) charPool.append(NUMBERS);
+        if (special) charPool.append(SPECIAL);
+
+        if (charPool.length() == 0 || length <= 0) {
+            return "";
+        }
+
+        StringBuilder password = new StringBuilder(length);
+        for (int i = 0; i < length; i++) {
+            int randomIndex = random.nextInt(charPool.length());
+            password.append(charPool.charAt(randomIndex));
+        }
+
+        return password.toString();
+    }
 }
