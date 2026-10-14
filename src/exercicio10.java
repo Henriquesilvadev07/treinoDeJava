@@ -2,6 +2,8 @@ import java.security.SecureRandom;
 import java.util.Scanner;
 
 public class exercicio10 {
+
+
     private static final String LOWERCASE = "abcdefghijklmnopqrstuvwxyz";
     private static final String UPPERCASE = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private static final String NUMBERS = "0123456789";
