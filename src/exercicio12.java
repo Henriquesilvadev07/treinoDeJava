@@ -9,5 +9,9 @@ public class exercicio12 {
 
         System.out.print("Digite a segunda nota: ");
         double note2 = sc.nextDouble();
+
+        double average = (note1 + note2) / 2;
+
+        System.out.println("Média final: " + average);
     }
 }
