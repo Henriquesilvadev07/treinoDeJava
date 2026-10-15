@@ -5,6 +5,9 @@ public class exercicio11 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite a temperatura em Celcius: ");
+        double celcius = scanner.nextDouble();
+
+        double fahrenheit = (celcius * 9 / 5) + 32;
 
     }
 }
