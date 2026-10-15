@@ -6,5 +6,8 @@ public class exercicio12 {
 
         System.out.print("Digite a primeira nota: ");
         double note1 = sc.nextDouble();
+
+        System.out.print("Digite a segunda nota: ");
+        double note2 = sc.nextDouble();
     }
 }
