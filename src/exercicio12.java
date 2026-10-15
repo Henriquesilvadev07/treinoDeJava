@@ -13,5 +13,12 @@ public class exercicio12 {
         double average = (note1 + note2) / 2;
 
         System.out.println("Média final: " + average);
+
+        if (average >= 6.0) {
+            System.out.println("Status: Aprovado!");
+        } else {
+            System.out.println("Status: Reprovado / Exame.");
+        }
+        sc.close();
     }
 }
