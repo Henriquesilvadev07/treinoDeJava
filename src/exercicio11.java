@@ -9,5 +9,8 @@ public class exercicio11 {
 
         double fahrenheit = (celcius * 9 / 5) + 32;
 
+        System.out.println(celcius + " graus Celcius equivale a  "+fahrenheit+" graus Fahrenheit");
+        scanner.close();
+
     }
 }
