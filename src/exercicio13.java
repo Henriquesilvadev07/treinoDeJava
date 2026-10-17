@@ -6,5 +6,7 @@ public class exercicio13 {
 
         System.out.print("Digite um ano: ");
         int year = scanner.nextInt();
+
+        boolean isLeap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     }
 }
