@@ -14,5 +14,7 @@ public class exercicio13 {
         } else {
             System.out.println("O ano " + year + " NÃO é bissexto.");
         }
+
+        scanner.close();
     }
 }
