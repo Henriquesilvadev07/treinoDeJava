@@ -8,5 +8,11 @@ public class exercicio13 {
         int year = scanner.nextInt();
 
         boolean isLeap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+
+        if (isLeap) {
+            System.out.println("O ano " + year + " é BISSEXTO!");
+        } else {
+            System.out.println("O ano " + year + " NÃO é bissexto.");
+        }
     }
 }
