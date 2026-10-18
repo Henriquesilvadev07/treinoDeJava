@@ -6,6 +6,8 @@ public class exercicio14Cep {
 
         System.out.println("============= BUSCADOR DE CEP (JAVA HTTP CLIENT ===========)");
         System.out.println("Digite um CEP(Somente números!): ");
+        String cep = sc.nextLine();
 
+        String url = "https://viacep.com.br/ws/"+cep+"/json/";
     }
 }
