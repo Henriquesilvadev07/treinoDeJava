@@ -28,5 +28,6 @@ public class exercicio14Cep {
             System.out.println("Erro ao buscar CEP: " +e.getMessage());
 
         }
+        sc.close();
     }
 }
