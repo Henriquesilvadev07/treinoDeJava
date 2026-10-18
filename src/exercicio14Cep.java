@@ -1,3 +1,7 @@
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.util.Scanner;
 
 public class exercicio14Cep {
@@ -9,5 +13,19 @@ public class exercicio14Cep {
         String cep = sc.nextLine();
 
         String url = "https://viacep.com.br/ws/"+cep+"/json/";
+
+        try {
+            HttpClient cliente = HttpClient.newHttpClient();
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(URI.create(url))
+                    .GET()
+                    .build();
+
+            HttpResponse<String> response = cliente.send(request, HttpResponse.BodyHandlers.ofString());
+            System.out.println("\n--- Resposta da API (JSON) ---");
+            System.out.println(response.body());
+        }catch (Exception e){
+
+        }
     }
 }
