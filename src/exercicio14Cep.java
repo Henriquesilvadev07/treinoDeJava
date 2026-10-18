@@ -25,6 +25,7 @@ public class exercicio14Cep {
             System.out.println("\n--- Resposta da API (JSON) ---");
             System.out.println(response.body());
         }catch (Exception e){
+            System.out.println("Erro ao buscar CEP: " +e.getMessage());
 
         }
     }
