@@ -36,6 +36,10 @@ public class exercicio15Economia {
                 System.out.println("Erro ao consultar a API. Código HTTP: " + response.statusCode());
             }
 
+        }catch (Exception e) {
+            System.out.println("Erro na requisição: " + e.getMessage());
+        } finally {
+            scanner.close();
         }
 
     }
