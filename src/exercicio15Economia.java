@@ -27,5 +27,16 @@ public class exercicio15Economia {
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
+            if (response.statusCode() == 200) {
+                System.out.println("\n--- Resposta da API ---");
+                System.out.println(response.body());
+                System.out.println("-----------------------");
+                System.out.println("Consulta realizada com sucesso!");
+            } else {
+                System.out.println("Erro ao consultar a API. Código HTTP: " + response.statusCode());
+            }
+
+        }
+
     }
 }
