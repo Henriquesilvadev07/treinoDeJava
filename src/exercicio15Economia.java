@@ -1,3 +1,7 @@
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.util.Scanner;
 
 public class exercicio15Economia {
@@ -13,6 +17,15 @@ public class exercicio15Economia {
         String parMoedas = (opcao == 2) ? "EUR-BRL" : "USD-BRL";
 
         String url = "https://economia.awesomeapi.com.br/json/last/" + parMoedas;
+
+        try {
+            HttpClient client = HttpClient.newHttpClient();
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(URI.create(url))
+                    .GET()
+                    .build();
+
+            HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
     }
 }
