@@ -9,5 +9,10 @@ public class exercicio15Economia {
         System.out.println("2 - Euro (EUR) para Real (BRL)");
         System.out.print("Opção: ");
 
+        int opcao = scanner.nextInt();
+        String parMoedas = (opcao == 2) ? "EUR-BRL" : "USD-BRL";
+
+        String url = "https://economia.awesomeapi.com.br/json/last/" + parMoedas;
+
     }
 }
