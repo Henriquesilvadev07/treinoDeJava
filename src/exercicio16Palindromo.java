@@ -6,5 +6,7 @@ public class exercicio16Palindromo {
 
         System.out.println("Digite uma palavra ou frase: ");
         String texto = scanner.nextLine().trim().toLowerCase().replaceAll("\\s+", "");
+
+        String invertido = new StringBuilder(texto).reverse().toString();
     }
 }
