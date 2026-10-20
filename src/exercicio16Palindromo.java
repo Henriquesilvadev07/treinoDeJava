@@ -15,5 +15,7 @@ public class exercicio16Palindromo {
             System.out.println("Não é um Palindromo!");
         }
         System.out.println("------------------------------");
+
+        scanner.close();
     }
 }
