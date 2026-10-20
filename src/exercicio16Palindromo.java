@@ -10,6 +10,8 @@ public class exercicio16Palindromo {
         String invertido = new StringBuilder(texto).reverse().toString();
         if (texto.equals(invertido)){
             System.out.println("é Um Palindromo!");
+        }else {
+            System.out.println("Não é um Palindromo!");
         }
     }
 }
