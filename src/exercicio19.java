@@ -13,5 +13,8 @@ public class exercicio19 {
         String service = "Lambda";
         String category = getServiceType(service);
 
+        System.out.println("Serviço AWS: " +service);
+        System.out.println("Categoria: " +category);
+
     }
 }
