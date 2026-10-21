@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class exercicio19 {
 
     public static String getServiceType(String serviceName) {
@@ -10,6 +12,7 @@ public class exercicio19 {
     }
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         String service = "Lambda";
         String category = getServiceType(service);
 
