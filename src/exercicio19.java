@@ -10,6 +10,8 @@ public class exercicio19 {
     }
 
     public static void main(String[] args) {
+        String service = "Lambda";
+        String category = getServiceType(service);
 
     }
 }
