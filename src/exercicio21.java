@@ -12,6 +12,8 @@ public class exercicio21 {
     }
 
     public static void main(String[] args) {
+        String ticketProtocol = generateProtocol("TICKET");
+        System.out.println("protocolo gerado: "+ticketProtocol);
 
     }
 }
