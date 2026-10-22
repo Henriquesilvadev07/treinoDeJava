@@ -9,6 +9,8 @@ public class exercicio20 {
     }
 
     public static void main(String[] args) {
+        int duration = 3665;
+        String formattedTime = formatSeconds(duration);
 
     }
 }
