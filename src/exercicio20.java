@@ -12,5 +12,8 @@ public class exercicio20 {
         int duration = 3665;
         String formattedTime = formatSeconds(duration);
 
+        System.out.println("Tempo total em segundos: " +duration);
+        System.out.println("Tempo formatado: " +formattedTime);
+
     }
 }
