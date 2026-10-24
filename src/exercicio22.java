@@ -9,5 +9,8 @@ public class exercicio22 {
         return precoOriginal - descontoFinal;
     }
 
+    public static void main(String[] args) {
+    }
+
 
 }
