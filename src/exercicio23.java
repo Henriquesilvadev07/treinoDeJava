@@ -11,4 +11,12 @@ public class exercicio23 {
         System.out.println("É forte? " + (isStrongPassword(senha) ? "Sim" : "Não"));
 
     }
+    public static boolean isStrongPassword(String password) {
+        if (password == null) {
+            return false;
+        }
+        String regex = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$";
+        return password.matches(regex);
+    }
+
 }
