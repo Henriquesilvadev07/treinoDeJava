@@ -7,6 +7,7 @@ public class exercicio24 {
                soma +=1;
             }
         });
+        System.out.println("Tempo de execução: " +executionTimeMs+ " ms");
 
     }
 
