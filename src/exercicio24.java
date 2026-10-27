@@ -4,6 +4,7 @@ public class exercicio24 {
     }
 
     public static long measureTime(Runnable task) {
-
+        Long startTime = System.currentTimeMillis();
+        task.run();
     }
 }
