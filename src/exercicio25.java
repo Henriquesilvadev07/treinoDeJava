@@ -1,6 +1,11 @@
 public class exercicio25 {
     public static void main(String[] args) {
+        double valorOriginal = 250.00;
+        double valorFinal = aplicarDescontoProgressivo(valorOriginal);
 
+        System.out.println("=== Calculadora de Desconto ===");
+        System.out.printf("Valor Original: R$ %.2f%n", valorOriginal);
+        System.out.printf("Valor com Desconto: R$ %.2f%n", valorFinal);
     }
 
     public static double aplicarDescontoProgressivo(double valor) {
