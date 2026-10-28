@@ -1,4 +1,7 @@
 public class exercicio25 {
+    public static void main(String[] args) {
+
+    }
 
     public static double aplicarDescontoProgressivo(double valor) {
         if (valor < 0) {
@@ -15,5 +18,6 @@ public class exercicio25 {
         } else {
             quantidadeDesconto = 0.0;
         }
+        return valor * (1.0 - quantidadeDesconto);
     }
 }
