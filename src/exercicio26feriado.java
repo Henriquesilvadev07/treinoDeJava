@@ -14,4 +14,13 @@ public class exercicio26feriado {
                 .GET()
                 .build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+
+        if (response.statusCode() == 200) {
+            return response.body();
+        } else {
+            throw new RuntimeException("Falha ao buscar feriados. Status: " + response.statusCode());
+        }
+    }
+
+
 }
