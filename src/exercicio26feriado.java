@@ -23,6 +23,12 @@ public class exercicio26feriado {
     }
 
     public static void main(String[] args) {
-
+        try {
+            int ano = 2026;
+            String holidaysJson = getHolidays(ano);
+            System.out.println("Feriados de " + ano + ":\n" + holidaysJson);
+        } catch (Exception e) {
+            System.err.println("Erro na requisição: " + e.getMessage());
+        }
     }
 }
