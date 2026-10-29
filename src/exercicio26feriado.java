@@ -22,5 +22,7 @@ public class exercicio26feriado {
         }
     }
 
+    public static void main(String[] args) {
 
+    }
 }
