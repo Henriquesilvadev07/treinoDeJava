@@ -1,6 +1,7 @@
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 
 public class exercicio26feriado {
 
@@ -12,4 +13,5 @@ public class exercicio26feriado {
                 .uri(URI.create(url))
                 .GET()
                 .build();
+        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 }
