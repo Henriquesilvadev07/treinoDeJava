@@ -24,5 +24,14 @@ public class exercicio27ddd {
 
     public static void main(String[] args) {
 
+        try {
+            int ddd = 11;
+            String dddInfoJson = getDddInfo(ddd);
+            System.out.println("Informações do DDD " + ddd + ":\n" + dddInfoJson);
+        } catch (Exception e) {
+            System.err.println("Erro na requisição: " + e.getMessage());
+        }
+
+
     }
 }
