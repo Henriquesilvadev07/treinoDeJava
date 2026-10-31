@@ -20,4 +20,9 @@ public class exercicio27ddd {
         } else {
             throw new RuntimeException("Falha ao buscar informações do DDD. Status: " + response.statusCode());
         }
+    }
+
+    public static void main(String[] args) {
+
+    }
 }
