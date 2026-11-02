@@ -6,5 +6,7 @@ public class exercicio29 {
 
         double annualCost = monthlyCost * months;
 
+        System.out.println("Custo mensal: R$ " + monthlyCost);
+        System.out.println("Custo anual: R$ " + annualCost);
     }
 }
