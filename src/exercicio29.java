@@ -3,5 +3,8 @@ public class exercicio29 {
 
         double monthlyCost = 45.50;
         int months = 12;
+
+        double annualCost = monthlyCost * months;
+
     }
 }
