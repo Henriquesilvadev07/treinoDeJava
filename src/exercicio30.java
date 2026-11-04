@@ -11,5 +11,15 @@ public class exercicio30 {
                     digits.substring(0, 2),
                     digits.substring(2, 7),
                     digits.substring(7));
+        }
+
+        if (digits.length() == 10) {
+            return String.format("(%s) %s-%s",
+                    digits.substring(0, 2),
+                    digits.substring(2, 6),
+                    digits.substring(6));
+        }
+
+        return digits;
     }
 }
