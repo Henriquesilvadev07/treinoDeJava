@@ -22,4 +22,8 @@ public class exercicio30 {
 
         return digits;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
