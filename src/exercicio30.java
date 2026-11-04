@@ -24,6 +24,7 @@ public class exercicio30 {
     }
 
     public static void main(String[] args) {
-
+        String input = "11985237252";
+        System.out.println("Telefone formatado: " + formatPhoneNumber(input));
     }
 }
