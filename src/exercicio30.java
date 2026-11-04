@@ -1,0 +1,30 @@
+public class exercicio30 {
+    public static String formatPhoneNumber(String phone) {
+        if (phone == null) return "";
+
+        // Mantém apenas os dígitos
+        String digits = phone.replaceAll("\\D", "");
+
+        // Formata celular com DDD (11 dígitos): (XX) XXXXX-XXXX
+        if (digits.length() == 11) {
+            return String.format("(%s) %s-%s",
+                    digits.substring(0, 2),
+                    digits.substring(2, 7),
+                    digits.substring(7));
+        }
+
+        if (digits.length() == 10) {
+            return String.format("(%s) %s-%s",
+                    digits.substring(0, 2),
+                    digits.substring(2, 6),
+                    digits.substring(6));
+        }
+
+        return digits;
+    }
+
+    public static void main(String[] args) {
+        String input = "11985237252";
+        System.out.println("Telefone formatado: " + formatPhoneNumber(input));
+    }
+}
