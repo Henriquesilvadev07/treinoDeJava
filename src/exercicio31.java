@@ -6,6 +6,7 @@ public class exercicio31 {
     }
 
     public static void main(String[] args) {
-
+        String idUnico = gerarIdUnico();
+        System.out.println("ID unico gerado: " + idUnico);
     }
 }
