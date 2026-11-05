@@ -6,6 +6,7 @@ public class exercicio32 {
     }
 
     public static void main(String[] args) {
-
+        int number = getRandomNumber(100);
+        System.out.println("Numero sorteado: " + number);
     }
 }
