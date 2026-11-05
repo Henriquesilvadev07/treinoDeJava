@@ -4,4 +4,8 @@ public class exercicio32 {
     public static int getRandomNumber(int max){
         return new Random().nextInt(max) + 1;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
