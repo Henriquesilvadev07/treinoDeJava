@@ -11,4 +11,7 @@ public class exercicio33 {
         return resultado;
     }
 
+    public static void main(String[] args) {
+
+    }
 }
