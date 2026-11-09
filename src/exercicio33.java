@@ -12,6 +12,7 @@ public class exercicio33 {
     }
 
     public static void main(String[] args) {
-
+        int numero = 5;
+        System.out.println("O fatorial de " + numero + " é: " + calcular(numero));
     }
 }
