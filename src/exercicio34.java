@@ -5,4 +5,8 @@ public class exercicio34 {
     public static double paraKelvin(double celsius) {
         return celsius + 273.15;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
