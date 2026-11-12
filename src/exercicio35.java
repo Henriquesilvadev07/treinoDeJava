@@ -9,6 +9,6 @@ public class exercicio35 {
     }
 
     public static void main(String[] args) {
-
+        exibirTabuada(8);
     }
 }
