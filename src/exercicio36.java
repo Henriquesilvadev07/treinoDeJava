@@ -10,4 +10,8 @@ public class exercicio36 {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
