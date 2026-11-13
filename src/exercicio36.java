@@ -12,6 +12,11 @@ public class exercicio36 {
     }
 
     public static void main(String[] args) {
-
+        int numero = 29;
+        if (ehPrimo(numero)) {
+            System.out.println(numero + " é um número primo!");
+        } else {
+            System.out.println(numero + " não é um número primo.");
+        }
     }
 }
