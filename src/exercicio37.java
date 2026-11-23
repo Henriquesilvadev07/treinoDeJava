@@ -3,4 +3,10 @@ public class exercicio37 {
         if (numeros == null) {
             return new int[0];
         }
+        int[] invertido = new int[numeros.length];
+        for (int i = 0; i < numeros.length; i++) {
+            invertido[i] = numeros[numeros.length - 1 - i];
+        }
+        return invertido;
+    }
 }
