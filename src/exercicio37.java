@@ -9,4 +9,8 @@ public class exercicio37 {
         }
         return invertido;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
