@@ -12,6 +12,7 @@ public class exercicio38 {
     }
 
     public static void main(String[] args) {
-
+        double media = calcularMedia(8.0, 6.5, 7.5);
+        System.out.printf("Média: %.2f - Situação: %s%n", media, verificarSituacao(media));
     }
 }
