@@ -10,4 +10,8 @@ public class exercicio38 {
         }
         return "Reprovado";
     }
+
+    public static void main(String[] args) {
+
+    }
 }
