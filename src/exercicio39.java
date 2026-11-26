@@ -7,4 +7,8 @@ public class exercicio39 {
         String[] palavras = frase.trim().split("\\s+");
         return palavras.length;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
