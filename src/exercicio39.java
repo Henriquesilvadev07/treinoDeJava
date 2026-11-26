@@ -9,6 +9,7 @@ public class exercicio39 {
     }
 
     public static void main(String[] args) {
-
+        String texto = "Hoje o dia esta lindo";
+        System.out.println("Quantidade de palavras: " + contar(texto));
     }
 }
