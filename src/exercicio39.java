@@ -4,4 +4,7 @@ public class exercicio39 {
         if (frase == null || frase.trim().isEmpty()) {
             return 0;
         }
+        String[] palavras = frase.trim().split("\\s+");
+        return palavras.length;
+    }
 }
