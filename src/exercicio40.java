@@ -24,4 +24,8 @@ public class exercicio40 {
         return menor;
     }
 
+    public static void main(String[] args) {
+
+    }
+
 }
