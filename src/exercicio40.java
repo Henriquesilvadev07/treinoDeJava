@@ -25,7 +25,9 @@ public class exercicio40 {
     }
 
     public static void main(String[] args) {
-
+        int[] valores = {14, 3, 89, 22, -5, 47};
+        System.out.println("Maior número: " + encontrarMaior(valores));
+        System.out.println("Menor número: " + encontrarMenor(valores));
     }
 
 }
