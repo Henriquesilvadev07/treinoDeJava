@@ -11,4 +11,8 @@ public class exercicio40 {
         }
         return maior;
     }
+    public static int encontrarMenor(int[] numeros) {
+        if (numeros == null || numeros.length == 0) {
+            throw new IllegalArgumentException("O array não pode estar vazio.");
+        }
 }
