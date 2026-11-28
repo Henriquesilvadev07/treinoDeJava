@@ -15,4 +15,13 @@ public class exercicio40 {
         if (numeros == null || numeros.length == 0) {
             throw new IllegalArgumentException("O array não pode estar vazio.");
         }
+        int menor = numeros[0];
+        for (int numero : numeros) {
+            if (numero < menor) {
+                menor = numero;
+            }
+        }
+        return menor;
+    }
+
 }
